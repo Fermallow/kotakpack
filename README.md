@@ -44,5 +44,5 @@ tambah reja
 
 ilangin texture tinted glass
 
-fix
+fix bug hopper pas dikasih sinyal redstone jadi missing texture
 
