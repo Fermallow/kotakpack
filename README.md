@@ -1,7 +1,7 @@
 # kotakpack
 texture pack untuk skk 
 
-sejauh ini yang udh diganti (paling atas paling baru)
+sejauh ini yang udh diganti
 
 =======================================================
 
