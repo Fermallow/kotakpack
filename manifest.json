@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "ResourcePack SurvKotaxKotax",
+        "name": "§bKotaxPack §lRemastered §4§o[Pre-Release]",
+        "uuid": "b25253db-e7df-4f60-a225-06d2099ff577",
+        "version": [0, 6, 1],
+        "min_engine_version": [ 1, 19, 0 ]
+    },
+    "modules": [
+        {
+            "description": "ResourcePack SurvKotaxKotax",
+            "type": "resources",
+            "uuid": "b7369462-2f4c-42db-9741-157f29526d16",
+            "version": [0, 0, 1]
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+  "namespace":"information_section",
+  "info_button@settings_common.section_toggle_base":{
+    "$toggle_view_binding_name":"info_button_toggle",
+    "$glyph_texture":"textures/ui/info_glyph",
+    "$glyph_color_texture":"textures/ui/info_glyph_color",
+    "$glyph_size":[
+      17,
+      17
+    ],
+    "$button_text":"panel.info",
+    "$toggle_property_bag":{
+      "#panel_title":"panel.info"
+    }
+  },
+  "info_section":{
+    "type":"stack_panel",
+    "size":[
+      "100%",
+      "100%c"
+    ],
+    "anchor_from":"top_left",
+    "anchor_to":"top_left",
+    "bindings":[
+      {
+        "binding_type":"view",
+        "source_control_name":"info_button_toggle",
+        "source_property_name":"#toggle_state",
+        "target_property_name":"#visible"
+      }
+    ],
+    "controls":[
+      {
+        "selector_group_lable_1@settings_common.selector_group_label":{
+          "font_size":"large",
+          "shadow":true,
+          "text":"Creator:"
+        }
+      },
+      {
+        "selector_group_lable_1@settings_common.selector_group_label":{
+          "text":"Made By §6 Minecraft pro 672"
+        }
+      },
+      {
+        "selector_group_lable_1@settings_common.selector_group_label":{
+          "font_size":"large",
+          "shadow":true,
+          "text":"Pack info:"
+        }
+      },
+      {
+        "selector_group_lable_1@settings_common.selector_group_label":{
+          "text":"§nThis pack allows you to switch point of view fast"
+        }
+      }
+    ]
+  }
+}
